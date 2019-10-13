@@ -18,3 +18,6 @@ def swap_elements(array, index, destination_index)
   array
 end
 
+def reverse_array
+  
+end
