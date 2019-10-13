@@ -37,7 +37,7 @@ end
 def add_s(array)
   array.each_with_index.collect do |x,i|
     if i == 1
-      return "feet"
+      "feet"
     else
       x << "s"
     end
