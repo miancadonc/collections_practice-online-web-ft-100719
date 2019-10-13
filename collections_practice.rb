@@ -33,3 +33,7 @@ end
 def sum_array(array)
   array.inject {|memo, n| memo + n}
 end
+
+def add_s(array)
+  array.each_with_index.collect{|x,i| x << "s" unless i == 1}
+end
